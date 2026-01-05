@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+---
 COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
 ---
 
