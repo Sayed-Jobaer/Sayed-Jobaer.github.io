@@ -2,15 +2,6 @@
 layout: default
 ---
 
-<div class="header-links">
-  <a href="mailto:sayedjobaer@hotmail.com">Email</a>
-  <a href="https://github.com/Sayed-Jobaer" target="_blank">GitHub</a>
-  <a href="assets/cv.pdf" target="_blank">CV</a>
-  <a href="https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en" target="_blank">
-    Google Scholar
-  </a>
-</div>
-
 ## About
 
 COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
