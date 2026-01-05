@@ -22,27 +22,26 @@ I received my **Bachelor’s degree in Software Engineering** from **Daffodil In
 
 ## Honors and Awards
 
-- **Shanghai Government Scholarship** for PhD Study, China  
-  Awarded for doctoral study at Donghua University.
+- **Excellent International Graduate Award**, Donghua University, China (2025)  
+  Conferred for exceptional academic achievement and comprehensive excellence throughout the Ph.D. program.
 
-- **Chinese Government Scholarship** for Master’s Study, China  
-  Awarded for full-time master’s study at Donghua University.
-
-- **Excellent International Graduate Award**, Donghua University, China, 2022  
-  Awarded in recognition of outstanding academic performance and overall excellence during master’s study.
-
-- **Outstanding International Student Award**, Donghua University, China, 2021  
+- **Outstanding International Student Award**, Donghua University, China (2024)  
   Awarded for excellent academic performance and active participation in university activities.
 
-- **Certificate of Honor for Outstanding Performance**,  
-  International Cultural Exchange School, Donghua University, 2019  
-  Awarded for outstanding performance during the International Cultural Festival of Donghua University.
-
 - **Certificate of Merit for Social Work**,  
-  International Cultural Exchange School, Donghua University, Spring 2023  
+  International Cultural Exchange School, Donghua University (Spring 2023)  
   Awarded in recognition of contributions to social and cultural activities.
 
----
+- **Shanghai Government Scholarship** for Ph.D. Study, China (2021)  
+  Awarded for doctoral study at Donghua University.
+
+- **Chinese Government Scholarship** for Master’s Study, China (2018)  
+  Awarded for full-time master’s study at Donghua University.
+
+- **Certificate of Honor for Outstanding Performance**,  
+  International Cultural Exchange School, Donghua University (2019)  
+  Awarded for outstanding performance during the International Cultural Festival of Donghua University.
+
 
 ## Research Interests
 - 3D Plant Phenotyping  
