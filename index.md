@@ -15,26 +15,11 @@ layout: default
 
 ## Academic Background
 
-## Academic Background
+I received my Bachelor’s degree in Electronics and Telecommunication Engineering from Daffodil International University, Bangladesh, in December 2014. After graduation, I worked as a Field Support Engineer at CFVL Myanmar Company Ltd., where I gained hands-on experience with Huawei, Ericsson, and Nokia telecommunication systems.
 
-I received my Bachelor’s degree in Electronics and Telecommunication Engineering from
-Daffodil International University, Bangladesh, in December 2014. After graduation, I
-worked as a Field Support Engineer at CFVL Myanmar Company Ltd., where I gained
-hands-on experience with Huawei, Ericsson, and Nokia telecommunication systems.
+In September 2018, I was awarded the Chinese Government Scholarship and moved to China to pursue graduate studies. I completed my Master’s degree in Information and Communication Engineering at Donghua University, Shanghai, China, in 2021. Following my master’s studies, I received the Shanghai Government Scholarship to pursue my Ph.D. at the same institution.
 
-In September 2018, I was awarded the Chinese Government Scholarship and moved to
-China to pursue graduate studies. I completed my Master’s degree in Information and
-Communication Engineering at Donghua University, Shanghai, China, in 2021. Following
-my master’s studies, I received the Shanghai Government Scholarship to pursue my Ph.D.
-at the same institution.
-
-I completed my Ph.D. in Information and Communication Intelligent Systems in June 2025.
-My doctoral research focused on effective object detection in unmanned aerial vehicle
-(UAV) imagery for complex environmental applications. I am currently co-running a
-technology company in Shanghai, where I am engaged in research-driven product
-development and industry-oriented innovation.
-
-
+I completed my Ph.D. in Information and Communication Intelligent Systems in June 2025. My doctoral research focused on effective object detection in unmanned aerial vehicle (UAV) imagery for complex environmental applications. I am currently co-running a technology company in Shanghai, where I am engaged in research-driven product development and industry-oriented innovation.
 
 ---
 
