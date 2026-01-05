@@ -3,12 +3,8 @@ layout: default
 ---
 
 ## Sayed Jobaer
-<img src="assets/pf.jpg"
-     alt="Sayed Jobaer"
-     style="display:block; margin:20px auto; width:180px; border-radius:50%;">
-     
+   
 **COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.**  <br>
-
 📧 **Email:** [sayedjobaer@hotmail.com](mailto:sayedjobaer@hotmail.com)  <br>
 🌐 **GitHub:** [github.com/Sayed-Jobaer](https://github.com/Sayed-Jobaer)  <br>
 📄 **CV:** [Download CV](assets/cv.pdf)  <br>
