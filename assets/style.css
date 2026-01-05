@@ -1,4 +1,28 @@
+/* Improve paragraph readability */
 .page-content p {
   text-align: justify;
+  line-height: 1.75;
+  font-size: 17px;
+  color: #2f2f2f;
 }
 
+/* Reduce visual noise from bold text */
+.page-content strong {
+  font-weight: 600;
+}
+
+/* Improve section spacing */
+.page-content h2 {
+  margin-top: 45px;
+  margin-bottom: 18px;
+}
+
+/* Limit content width for readability */
+.main-content {
+  max-width: 900px;
+}
+
+/* Soften horizontal rule */
+.page-content hr {
+  margin: 40px 0;
+}
