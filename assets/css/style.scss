@@ -55,24 +55,27 @@
   }
 }
 
-/* ===== Horizontal profile links ===== */
+/* ===== Links inside header banner ===== */
 
-.profile-links {
-  margin-top: 10px;
-  font-size: 16px;
+.page-header {
+  position: relative;
 }
 
-.profile-links a {
-  color: #1a73e8;
-  text-decoration: none;
+.header-links {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
   font-weight: 500;
 }
 
-.profile-links a:hover {
-  text-decoration: underline;
+.header-links a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-.profile-links span {
-  margin: 0 8px;
-  color: #999;
+.header-links a:hover {
+  text-decoration: underline;
 }
