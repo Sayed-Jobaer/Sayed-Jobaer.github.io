@@ -8,7 +8,7 @@ layout: default
 
 📧 **Email:** [sayedjobaer@hotmail.com](mailto:sayedjobaer@hotmail.com)  <br>
 🌐 **GitHub:** [github.com/Sayed-Jobaer](https://github.com/Sayed-Jobaer)  <br>
-📄 **CV:** [Download CV](cv.pdf)  <br>
+📄 **CV:** [Download CV](assets/cv.pdf)  <br>
 🎓 **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en&oi=ao)
 
 ---
