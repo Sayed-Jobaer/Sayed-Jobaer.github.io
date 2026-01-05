@@ -43,7 +43,20 @@ I received my **Bachelor’s degree in Software Engineering** from **Daffodil In
   Awarded for outstanding performance during the International Cultural Festival of Donghua University.
 
 
+## Publications
+
+Please refer to my  
+👉 [Google Scholar Profile](https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en&oi=ao)
+
+---
+
+
 ## Research Interests
+- Small Object Detection  
+- UAV-based Computer Vision  
+- Lightweight Deep Learning Models  
+- Object Detection in Complex Environments  
+- Real-Time Vision Systems 
 - 3D Plant Phenotyping  
 - Point Cloud Processing and Learning  
 - Deep Learning for Agriculture  
@@ -429,6 +442,15 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   margin: 0 auto;
 }
 
+  ## Professional Activities
+
+- Research-driven product development in UAV vision systems  
+- Industry–academia collaboration  
+- Supervision and mentoring of junior researchers  
+- Open-source research contributions (code released upon publication acceptance)
+
+---
+  
 /* Make MapMyVisitors globe responsive */
 #mmvst_globe,
 #mmvst_globe iframe,
