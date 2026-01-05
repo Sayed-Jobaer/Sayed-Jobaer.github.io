@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Sayed Jobaer
-<img src="assets/profile.jpg"
+<img src="assets/pf.jpg"
      alt="Sayed Jobaer"
      style="display:block; margin:20px auto; width:180px; border-radius:50%;">
      
