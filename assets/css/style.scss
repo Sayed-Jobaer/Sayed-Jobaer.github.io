@@ -87,4 +87,15 @@
   margin-left: 8px;
   color: rgba(255, 255, 255, 0.6);
 }
+/* ===== Force white links in Cayman header ===== */
+
+.page-header .project-tagline a {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.page-header .project-tagline a:hover {
+  text-decoration: underline;
+}
 
