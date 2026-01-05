@@ -2,10 +2,6 @@
 layout: default
 ---
 
-## Welcome to Sayed Jobaer's Homepage!
-
-## About
-
 COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
 
 ---
