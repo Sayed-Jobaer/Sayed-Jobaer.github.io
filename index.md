@@ -4,13 +4,12 @@ layout: default
 
 ## Sayed Jobaer
 
-**Ph.D. In Information and Communication Intelligent System**  
-**Donghua University (211, Double First-Class) · Shanghai, China** <br>
+**COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.**  <br>
 
 📧 **Email:** [sayedjobaer@hotmail.com](mailto:sayedjobaer@hotmail.com)  <br>
 🌐 **GitHub:** [github.com/Sayed-Jobaer](https://github.com/Sayed-Jobaer)  <br>
 📄 **CV:** [Download CV](cv.pdf)  <br>
-🎓 **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=1HUchzEAAAAJ&hl=en)
+🎓 **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en&oi=ao)
 
 ---
 
