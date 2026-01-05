@@ -13,9 +13,13 @@ layout: default
 
 ---
 
-## Academic History and Education Background
+## Academic Background
 
-I received my **Bachelor’s degree in Software Engineering** from **Daffodil International University**, Bangladesh, in **2018**. In **September 2019**, I was awarded the **Chinese Government Scholarship** and moved to China to pursue graduate studies. I completed my **Master’s degree in Information and Communication Engineering** at **Donghua University**, Shanghai, China, in **2022**. Following my master’s studies, I was awarded the **Shanghai Government Scholarship** to pursue my **PhD** at **Donghua University**. I am currently a PhD student in the **Information and Communication Intelligent Systems** program, where my research focuses on data-driven methods for **3D plant phenotyping, 3D point cloud processing, generative modeling and computer vision**.
+I received my **Bachelor’s degree in Electronics and Telecommunication Engineering** from **Daffodil International University**, Bangladesh, in **December 2014**. After completing my undergraduate studies, I joined **CFVL Myanmar Company Ltd.**, where I worked as a **Field Support Engineer**, gaining hands-on industry experience with **Huawei, Ericsson, and Nokia** telecommunication systems.
+
+In **September 2018**, I was awarded the **Chinese Government Scholarship** and moved to China to pursue graduate studies. I completed my **Master’s degree in Information and Communication Engineering** at **Donghua University**, Shanghai, China, in **2021**. Following my master’s studies, I was awarded the **Shanghai Government Scholarship** to pursue my **Ph.D.** at the same institution.
+
+I completed my **Ph.D. in Information and Communication Intelligent Systems** in **June 2025**. My doctoral research focused on **effective object detection in unmanned aerial vehicle (UAV) imagery for complex environmental applications**. I am currently **co-running a technology company in Shanghai**, where I am engaged in **research-driven product development and industry-oriented innovation**.
 
 
 ---
