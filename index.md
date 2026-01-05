@@ -2,13 +2,13 @@
 layout: default
 ---
 
-## Foysal Ahmed
+## Sayed Jobaer
 
-**PhD Student**  
+**Ph.D. In Information and Communication Intelligent System**  
 **Donghua University (211, Double First-Class) · Shanghai, China** <br>
 
-📧 **Email:** [foysal.9@outlook.com](mailto:foysal.9@outlook.com)  <br>
-🌐 **GitHub:** [github.com/foysalahmed10](https://github.com/foysalahmed10)  <br>
+📧 **Email:** [sayedjobaer@hotmail.com](mailto:sayedjobaer@hotmail.com)  <br>
+🌐 **GitHub:** [github.com/Sayed-Jobaer](https://github.com/Sayed-Jobaer)  <br>
 📄 **CV:** [Download CV](cv.pdf)  <br>
 🎓 **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=1HUchzEAAAAJ&hl=en)
 
