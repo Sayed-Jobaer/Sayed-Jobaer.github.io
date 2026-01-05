@@ -1,19 +1,24 @@
 # Welcome to Dawei Li's Homepage!
-<!-- 注释掉该句# Welcome to Dawei Li's Personal Homepage! -->
+---
+layout: default
+---
 
-<table border="0">
-  <tr>
-    <td width="100%">
-      <h2>Dawei Li 李大威</h2>
-      <p><b>PhD, Associate Professor</b></p>
-      <p><b>Dean of Automation Department</b></p>
-      <p><b>I am with the College of Information Sciences and Technology, the Engineering Research Center of Digitized Textile & Fashion Technology of Ministry of Education, and with the State Key Laboratory for Modification of Chemical Fibers and Polymer Materials (SKLFPM)</b></p>
-      <p><b>Donghua University (211, Double First-Class)</b></p>
-      <p><b>2999 North Renmin Rd., Songjiang District, Shanghai, China 201620</b></p>
-      <p><b>Email: daweili[A.T.]dhu.edu.cn</b></p>
-    </td>
-  </tr>
-</table>
+## Foysal Ahmed
+
+**PhD Student**  
+**Donghua University (211, Double First-Class) · Shanghai, China** <br>
+
+📧 **Email:** [foysal.9@outlook.com](mailto:foysal.9@outlook.com)  <br>
+🌐 **GitHub:** [github.com/foysalahmed10](https://github.com/foysalahmed10)  <br>
+📄 **CV:** [Download CV](cv.pdf)  <br>
+🎓 **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=1HUchzEAAAAJ&hl=en)
+
+---
+
+## Academic History and Education Background
+
+I received my **Bachelor’s degree in Software Engineering** from **Daffodil International University**, Bangladesh, in **2018**. In **September 2019**, I was awarded the **Chinese Government Scholarship** and moved to China to pursue graduate studies. I completed my **Master’s degree in Information and Communication Engineering** at **Donghua University**, Shanghai, China, in **2022**. Following my master’s studies, I was awarded the **Shanghai Government Scholarship** to pursue my **PhD** at **Donghua University**. I am currently a PhD student in the **Information and Communication Intelligent Systems** program, where my research focuses on data-driven methods for **3D plant phenotyping, 3D point cloud processing, generative modeling and computer vision**.
+
 
 ## Academic History and Education Background:
 <p>I received B.E. in Automation in 2006 from Tongji University, Shanghai, China. During 2009-2010, I was a visiting researcher at Michigan State University, East Lansing, MI, USA. In 2013, I received the Ph.D. in Control Theory and Control Engineering from Tongji University, Shanghai, China. During 2013-2015, I was a postdoc at the Department of Computer Sciences and Technology, Tongji University, Shanghai, China. Currently an associate professor with Donghua University, Songjiang District, Shanghai, China. </p>
