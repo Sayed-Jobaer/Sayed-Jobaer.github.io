@@ -71,22 +71,6 @@
   font-weight: 500;
 }
 
-.header-links a {
-  color: rgba(255, 255, 255, 0.95);
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.header-links a:hover {
-  text-decoration: underline;
-}
-
-/* Optional separators */
-.header-links a:not(:last-child)::after {
-  content: " ·";
-  margin-left: 8px;
-  color: rgba(255, 255, 255, 0.6);
-}
 /* ===== Force white links in Cayman header ===== */
 
 .page-header .project-tagline a {
