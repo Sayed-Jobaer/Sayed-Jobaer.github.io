@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-**Dr. Sayed Jobaer**  <br>
-**COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.**  <br>
+
 <div class="header-links">
   <a href="mailto:sayedjobaer@hotmail.com">Email</a>
   <a href="https://github.com/Sayed-Jobaer" target="_blank">GitHub</a>
@@ -12,7 +11,9 @@ layout: default
   </a>
 </div>
 
+## About
 
+COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
 
 ---
 
