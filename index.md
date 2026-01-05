@@ -40,7 +40,7 @@ I completed my Ph.D. in Information and Communication Intelligent Systems in Jun
 - **Certificate of Honor for Outstanding Performance**,  
   International Cultural Exchange School, Donghua University (2019)  
   Awarded for outstanding performance during the International Cultural Festival of Donghua University.
-
+---
 
 ## Publications
 
