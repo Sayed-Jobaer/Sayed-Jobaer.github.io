@@ -1,4 +1,3 @@
-
 ---
 ---
 @import "{{ site.theme }}";
@@ -43,15 +42,15 @@
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background-image: url("/assets/pf.jpg");
+  background-image: url("{{ site.baseurl }}/assets/pf.jpg");
   background-size: cover;
   background-position: center;
   border: 4px solid rgba(255, 255, 255, 0.8);
 }
+
 @media (max-width: 600px) {
   .page-header::before {
     width: 110px;
     height: 110px;
   }
 }
-
