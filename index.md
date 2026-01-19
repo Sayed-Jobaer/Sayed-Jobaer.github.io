@@ -523,6 +523,18 @@ This paper proposes a novel knowledge distillation framework to enhance small ob
 The method integrates attention-guided feature distillation and a feature-level deblurring subnet within a self-supervised learning paradigm, enabling robust detection without relying on explicit image deblurring. Experimental results on VisDrone and a newly developed UAV small object detection dataset demonstrate consistent performance improvements over state-of-the-art methods.
 </p> 
 
+**Model**
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/kd_model_1.jpg" width="85%" />
+      <br>
+      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+    </td>
+  </tr>
+</table>
+
+
 **Resources**  
 - 📄 **Paper:** [https://doi.org/10.1007/s40747-024-01676-w  ](https://link.springer.com/article/10.1007/s40747-024-01676-w)
 - 💻 **Code:** *(to be released)*  
@@ -597,44 +609,6 @@ The method integrates attention-guided feature distillation and a feature-level 
     </td>
   </tr>
 </table>
-
----
-
-
-### YOLO-JD: A Deep Learning Network for Jute Diseases and Pests Detection
-
-Dawei Li†, **Foysal Ahmed**†, N. Wu, and A. I. Sethi<br>
-<strong>Plants</strong>, 2022.<br>
-† Contributed equally.
-
-**Brief Description:**  
-This work proposes a YOLO-based detection framework for identifying jute diseases and pests from field images, enabling practical and efficient disease monitoring in real agricultural environments.
-
-**Resources**  
-- 📄 **Paper:** [https://doi.org/10.3390/plants11070937 ](https://doi.org/10.3390/plants11070937) 
-- 💻 **Code:** [https://github.com/foysalahmed10/YOLO-JD  ](https://github.com/foysalahmed10/YOLO-JD)
-
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/Jute_1.jpg" width="85%" />
-      <br>
-      <em>The overall architecture of YOLO-JD.</em>
-    </td>
-  </tr>
-</table>
-
-
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/Jute_2.jpg" width="85%" />
-      <br>
-      <em>YOLO-JD predictions on complex background images.</em>
-    </td>
-  </tr>
-</table>
-
 
 ---
 
