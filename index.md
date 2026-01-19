@@ -423,7 +423,8 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 YOLO-SOD is a YOLOv5-based small object detection framework designed for complex UAV environments. It addresses challenges caused by high-altitude views, low-light conditions, and strong object–background similarity by introducing a Luna-enhancement mechanism, four novel detection modules, and a dedicated SOD dataset. The approach significantly improves detection accuracy and robustness for small and flat objects in aerial imagery.
 </p> 
 
-**Model**
+## YOLO-SOD Architecture Overview
+
 <table border="0">
   <tr>
     <td align="center">
@@ -536,7 +537,8 @@ This paper proposes a novel knowledge distillation framework to enhance small ob
 The method integrates attention-guided feature distillation and a feature-level deblurring subnet within a self-supervised learning paradigm, enabling robust detection without relying on explicit image deblurring. Experimental results on VisDrone and a newly developed UAV small object detection dataset demonstrate consistent performance improvements over state-of-the-art methods.
 </p> 
 
-**Model**
+## KD Models Overview
+
 <table border="0">
   <tr>
     <td align="center">
@@ -634,9 +636,7 @@ Sayed Jobaer, Yihong Zhang*, Muhammad Ather Iqbal Hussain, **Foysal Ahmed**<br>
 **Brief Description:**  
 This paper proposes a UAV-assisted hybrid routing framework for urban vehicular ad hoc networks (VANETs) to improve road safety and congestion control. By integrating unmanned aerial vehicles (UAVs) with roadside units and vehicular communication, the proposed scheme enhances packet delivery ratio, reduces end-to-end delay, and improves energy efficiency under realistic urban traffic conditions.
 
-**Resources**  
-- 📄 **Paper:** [https://www.mdpi.com/2079-9292/9/9/1499](https://doi.org/10.3390/electronics9091499)
-- 💻 **Code:** *(to be released)*  
+## VANET Overview
 
 <table border="0">
   <tr>
@@ -647,6 +647,33 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
     </td>
   </tr>
 </table>
+
+**Resources**  
+- 📄 **Paper:** [https://www.mdpi.com/2079-9292/9/9/1499](https://doi.org/10.3390/electronics9091499)
+- 💻 **Code:** *(to be released)*  
+
+**Rersults**
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/img1.png" width="90%"><br>
+      <sub><b>(a)</b> Sharp image. Objects are clearly visible and easily detected.</sub>
+    </td>
+    <td align="center">
+      <img src="assets/img2.png" width="90%"><br>
+      <sub><b>(b)</b> 40% motion speed. Slight blur appears, causing reduced detection confidence.</sub>
+    </td>
+    <td align="center">
+      <img src="assets/img3.png" width="90%"><br>
+      <sub><b>(c)</b> 80% motion speed. Severe motion blur degrades object visibility.</sub>
+    </td>
+    <td align="center">
+      <img src="assets/img4.png" width="90%"><br>
+      <sub><b>(d)</b> 100% motion speed. Small objects become highly challenging to detect.</sub>
+    </td>
+  </tr>
+</table>
+
 
 
 ---
