@@ -26,8 +26,13 @@ layout: default
 
 </p>
 
-<h2 align="center">Dr. Sayed Jobaer</h2>
-<h3 align="center">COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.</h3>
+<h1 align="center" style="margin-bottom:5px;">
+  Dr. Sayed Jobaer
+</h1>
+<h3 align="center" style="margin-top:0;">
+  COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.
+</h3>
+
 
 ---
 
