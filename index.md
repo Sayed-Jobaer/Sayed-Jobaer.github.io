@@ -533,7 +533,15 @@ The method integrates attention-guided feature distillation and a feature-level 
     </td>
   </tr>
 </table>
-
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/uav_kd_framework_2.png" width="85%" />
+      <br>
+      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+    </td>
+  </tr>
+</table>
 
 **Resources**  
 - 📄 **Paper:** [https://doi.org/10.1007/s40747-024-01676-w  ](https://link.springer.com/article/10.1007/s40747-024-01676-w)
@@ -600,15 +608,7 @@ The method integrates attention-guided feature distillation and a feature-level 
     </td>
   </tr>
 </table>
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/uav_kd_framework_2.png" width="85%" />
-      <br>
-      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
-    </td>
-  </tr>
-</table>
+
 
 ---
 
