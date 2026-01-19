@@ -246,21 +246,13 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 - 💻 **Code:** [https://github.com/  ](https://github.com/foysalahmed10/Pepper-4D)
 
 **Introduction** <br>
+<p style="text-align: justify;">
 
-Three-dimensional (3D) plant phenotyping plays a crucial role in analyzing
-plant structure, organ-level traits, and growth dynamics.
-While recent advances in 2D and 3D vision have accelerated research in plant
-phenotyping, publicly available **spatiotemporal 3D datasets for pepper plants**
-remain extremely limited.
+Three-dimensional (3D) plant phenotyping plays a crucial role in analyzing plant structure, organ-level traits, and growth dynamics. While recent advances in 2D and 3D vision have accelerated research in plant phenotyping, publicly available **spatiotemporal 3D datasets for pepper plants** remain extremely limited.
 
-Pepper-4D addresses this gap by providing a **comprehensive 4D (3D + time) point
-cloud dataset** capturing the complete growth and developmental process of
-pepper plants under controlled indoor conditions.
-The dataset enables detailed analysis of plant structure, organ dynamics,
-temporal growth patterns, and plant health status.
-Pepper-4D is designed as a benchmark resource for both discriminative and
-generative learning methods on 3D plant point clouds.
-
+Pepper-4D addresses this gap by providing a **comprehensive 4D (3D + time) point cloud dataset** capturing the complete growth and developmental process of pepper plants under controlled indoor conditions.
+The dataset enables detailed analysis of plant structure, organ dynamics, temporal growth patterns, and plant health status. Pepper-4D is designed as a benchmark resource for both discriminative and generative learning methods on 3D plant point clouds.
+</p>
 
 **Dataset Overview**  <br>
 
@@ -276,8 +268,7 @@ generative learning methods on 3D plant point clouds.
 
 **Comparison with Existing 3D Crop Datasets**  <br>
 
-The following table provides a high-level comparison between Pepper-4D and
-representative publicly available 3D crop datasets.
+The following table provides a high-level comparison between Pepper-4D and representative publicly available 3D crop datasets.
 
 <table align="center">
   <thead>
@@ -372,12 +363,9 @@ representative publicly available 3D crop datasets.
   <img src="assets/data_acquisition_pipeline.jpg" width="95%">
 </p>
 
-Pepper-4D was constructed through a multi-stage pipeline including image
-acquisition, preprocessing, 3D reconstruction, and plant-only point cloud
-generation. Multi-view images were captured for each plant at each time step,
-followed by 3D reconstruction and post-processing to obtain temporally aligned
-point clouds.
-
+<p style="text-align: justify;">
+Pepper-4D was constructed through a multi-stage pipeline including image acquisition, preprocessing, 3D reconstruction, and plant-only point cloud generation. Multi-view images were captured for each plant at each time step, followed by 3D reconstruction and post-processing to obtain temporally aligned point clouds.
+</p>
 
 **Dataset Subsets**  <br>
 
