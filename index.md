@@ -419,6 +419,7 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
 
 **Results**
 
+<div style="overflow-x: auto;">
 <table>
   <thead>
     <tr>
@@ -478,7 +479,7 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
     </tr>
   </tbody>
 </table>
-
+</div>
 
 <table border="0">
   <tr>
