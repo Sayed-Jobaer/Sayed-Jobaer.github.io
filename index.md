@@ -272,7 +272,12 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 - 📄 **Paper:** to be published
 - 💻 **Code:** https://github.com/dhuvisionlab/LiteUAV-Det
 
+**Outperforms comparable lightweight detectors**
+
+- Achieves +4.2% mAP on VisDrone2019 and +2.9% mAP on UAV-SOD compared to YOLOv9s (7.17M parameters).
+
 <table border="0">
+  
   <tr>
     <th>Dataset</th>
     <th>mAP<sub>0.5:0.95</sub></th>
