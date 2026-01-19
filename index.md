@@ -33,6 +33,15 @@ layout: default
   COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.
 </h3>
 
+<p align="center" style="margin-top:10px; font-size:1.05em;">
+  <a href="#about">About</a> ·
+  <a href="#research">Research</a> ·
+  <a href="#projects">Projects</a> ·
+  <a href="#publications">Publications</a> ·
+  <a href="#datasets">Datasets</a> ·
+  <a href="#contact">Contact</a>
+</p>
+
 
 ---
 
