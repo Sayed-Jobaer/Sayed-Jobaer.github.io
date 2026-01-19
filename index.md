@@ -656,20 +656,20 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 <table border="0">
   <tr>
     <td align="center">
-      <img src="assets/img1.png" width="90%"><br>
-      <sub><b>(a)</b> Sharp image. Objects are clearly visible and easily detected.</sub>
+      <img src="assets/uav_1.png" width="90%"><br>
+      <sub><b>(a)</b> Instant Throughput.</sub>
     </td>
     <td align="center">
-      <img src="assets/img2.png" width="90%"><br>
-      <sub><b>(b)</b> 40% motion speed. Slight blur appears, causing reduced detection confidence.</sub>
+      <img src="assets/uav_2.png" width="90%"><br>
+      <sub><b>(b)</b> Packet delivery ratio.</sub>
     </td>
     <td align="center">
-      <img src="assets/img3.png" width="90%"><br>
-      <sub><b>(c)</b> 80% motion speed. Severe motion blur degrades object visibility.</sub>
+      <img src="assets/uav_3.png" width="90%"><br>
+      <sub><b>(c)</b> Residual energy.</sub>
     </td>
     <td align="center">
-      <img src="assets/img4.png" width="90%"><br>
-      <sub><b>(d)</b> 100% motion speed. Small objects become highly challenging to detect.</sub>
+      <img src="assets/uav_4.png" width="90%"><br>
+      <sub><b>(d)</b> End-to-end delay.</sub>
     </td>
   </tr>
 </table>
