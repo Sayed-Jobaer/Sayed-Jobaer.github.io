@@ -47,7 +47,7 @@ I completed my Ph.D. in Information and Communication Intelligent Systems in Jun
 ---
 
 ## Honors and Awards
-<p style="text-align: justify;">
+
 - **Excellent International Graduate Award**, Donghua University, China (2025)  
   Conferred for exceptional academic achievement and comprehensive excellence throughout the Ph.D. program.
 
@@ -67,7 +67,7 @@ I completed my Ph.D. in Information and Communication Intelligent Systems in Jun
 - **Certificate of Honor for Outstanding Performance**,  
   International Cultural Exchange School, Donghua University (2019)  
   Awarded for outstanding performance during the International Cultural Festival of Donghua University.
-  </p>
+
 ---
 
 ## Publications
