@@ -404,8 +404,10 @@ Sayed Jobaer, Xue-song Tang, Yihong Zhang, Gaojian Li, **Foysal Ahmed**
 <strong>Complex & Intelligent Systems</strong>, 2025.  
 
 **Brief Description:**  
+<p style="text-align: justify;">
 This paper proposes a novel knowledge distillation framework to enhance small object detection performance in blurry UAV-assisted images.  
 The method integrates attention-guided feature distillation and a feature-level deblurring subnet within a self-supervised learning paradigm, enabling robust detection without relying on explicit image deblurring. Experimental results on VisDrone and a newly developed UAV small object detection dataset demonstrate consistent performance improvements over state-of-the-art methods.
+</p> 
 
 **Resources**  
 - 📄 **Paper:** [https://doi.org/10.1007/s40747-024-01676-w  ](https://link.springer.com/article/10.1007/s40747-024-01676-w)
