@@ -657,7 +657,7 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   <tr>
     <td align="center">
       <img src="assets/uav_1.png" width="90%"><br>
-      <sub><b>(a)</b> Instant Throughput.</sub>
+      <sub><b>(a)</b> Instant throughput.</sub>
     </td>
     <td align="center">
       <img src="assets/uav_2.png" width="90%"><br>
