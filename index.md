@@ -48,14 +48,15 @@ layout: default
   z-index: 1000;
 ">
 
-  <a href="#about">About</a><br>
-  <a href="#research">Research</a><br>
-  <a href="#projects">Projects</a><br>
-  <a href="#publications">Publications</a><br>
-  <a href="#datasets">Datasets</a><br>
+<div style="max-width:900px; margin: 20px auto; font-size:0.95em;">
+  <a href="#about">About</a> ·
+  <a href="#research">Research</a> ·
+  <a href="#projects">Projects</a> ·
+  <a href="#publications">Publications</a> ·
+  <a href="#datasets">Datasets</a> ·
   <a href="#contact">Contact</a>
-
 </div>
+
 
 <!-- ================= PAGE CONTENT ================= -->
 
