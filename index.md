@@ -274,30 +274,25 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 
 <table border="0">
   <tr>
-    <td align="center"><b>Dataset</b></td>
-    <td align="center"><b>mAP<sub>0.5:0.95</sub></b></td>
-    <td align="center"><b>Inference Time</b></td>
-    <td align="center"><b>FPS</b></td>
+    <th>Dataset</th>
+    <th>mAP<sub>0.5:0.95</sub></th>
+    <th>Inference Time</th>
+    <th>FPS</th>
+  </tr>
+  <tr>
+    <td>UAV-SOD</td>
+    <td><b>34.5%</b></td>
+    <td><b>2.4 ms</b></td>
+    <td><b>214</b></td>
+  </tr>
+  <tr>
+    <td>VisDrone2019</td>
+    <td><b>33.8%</b></td>
+    <td><b>2.3 ms</b></td>
+    <td><b>300</b></td>
   </tr>
 </table>
 
-<table border="0">
-  <tr>
-    <td align="center">UAV-SOD</td>
-    <td align="center"><b>34.5%</b></td>
-    <td align="center"><b>2.4 ms</b></td>
-    <td align="center"><b>214</b></td>
-  </tr>
-</table>
-
-<table border="0">
-  <tr>
-    <td align="center">VisDrone2019</td>
-    <td align="center"><b>33.8%</b></td>
-    <td align="center"><b>2.3 ms</b></td>
-    <td align="center"><b>300</b></td>
-  </tr>
-</table>
 
 **Rersults**  <br>
 
