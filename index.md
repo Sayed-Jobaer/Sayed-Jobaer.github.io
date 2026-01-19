@@ -267,6 +267,7 @@ phenotyping tasks.
 LiteUAV-Det is a robust lightweight object detection framework designed for small, flat, fast-moving, and motion-blurred objects in challenging UAV scenarios. It targets complex aerial environments characterized by high altitude, low illumination, and severe motion blur, where conventional SOTA detectors often fail due to strong pixel-level similarity between targets and background.
 </p>
 
+**Model**
   
 **Resources**  
 - 📄 **Paper:** to be published
@@ -412,6 +413,26 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 YOLO-SOD is a YOLOv5-based small object detection framework designed for complex UAV environments. It addresses challenges caused by high-altitude views, low-light conditions, and strong object–background similarity by introducing a Luna-enhancement mechanism, four novel detection modules, and a dedicated SOD dataset. The approach significantly improves detection accuracy and robustness for small and flat objects in aerial imagery.
 </p> 
 
+**Model**
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/yolo_sod_1.jpg" width="85%" />
+      <br>
+      <em>YOLO-SOD adopts a well-structured detection framework consisting of three key components: a robust backbone for feature extraction, an enhanced neck for multi-scale feature fusion, and a detection head for accurate object localization and classification.</em>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/yolo_sod_2.jpg" width="85%" />
+      <br>
+      <em>Overview of key YOLO-SOD modules: (a) Binocular Shape Network (BINSNet), (b) Scale-Adaptive Feature Fusion Module (SAFFM), (c) Deep Binocular Shape Network (DBINSNet), and (d) Special Context Feature Enhancement Module (SCFEM).</em>
+    </td>
+  </tr>
+</table>
+
 **Resources**  
 - 📄 **Paper:** [https://doi.org/10.1016/j.engappai.2025.110466]
 - 💻 **Code:** *(https://github.com/dhuvisionlab/SOD)*  
@@ -481,24 +502,6 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
 </table>
 </div> 
 
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/yolo_sod_1.jpg" width="85%" />
-      <br>
-      <em>YOLO-SOD adopts a well-structured detection framework consisting of three key components: a robust backbone for feature extraction, an enhanced neck for multi-scale feature fusion, and a detection head for accurate object localization and classification.</em>
-    </td>
-  </tr>
-</table>
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/yolo_sod_2.jpg" width="85%" />
-      <br>
-      <em>Overview of key YOLO-SOD modules: (a) Binocular Shape Network (BINSNet), (b) Scale-Adaptive Feature Fusion Module (SAFFM), (c) Deep Binocular Shape Network (DBINSNet), and (d) Special Context Feature Enhancement Module (SCFEM).</em>
-    </td>
-  </tr>
-</table>
 <table border="0">
   <tr>
     <td align="center">
