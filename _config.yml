@@ -21,5 +21,11 @@ description: >
     🎓
   </a>
 
+<a href="mailto:sayedjobaer@hotmail.com" title="Email">
+  <img src="/assets/email.svg" width="20" style="vertical-align:middle;">
+</a>
 
+<a href="/assets/cv.pdf" target="_blank" title="CV (PDF)">
+  <img src="/assets/cv_pdf.svg" width="20" style="vertical-align:middle;">
+</a>
 
