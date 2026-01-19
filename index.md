@@ -755,3 +755,23 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   max-width: 100% !important;
 }
 </style>
+
+---
+<hr>
+
+<p id="digital-clock"
+   style="text-align:center;
+          font-family: monospace;
+          font-size: 0.85em;
+          color: #777;">
+</p>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    document.getElementById("digital-clock").innerHTML =
+      "Local time: " + now.toLocaleString();
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
