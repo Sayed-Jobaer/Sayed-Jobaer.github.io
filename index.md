@@ -26,9 +26,8 @@ layout: default
 
 </p>
 
-## Dr. Sayed Jobaer
-### COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
-
+<h2 align="center">Dr. Sayed Jobaer</h2>
+<h3 align="center">COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.</h3>
 
 ---
 
