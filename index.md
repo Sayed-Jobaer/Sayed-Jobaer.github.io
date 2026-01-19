@@ -756,7 +756,6 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 }
 </style>
 
----
 <hr>
 
 <p id="digital-clock"
