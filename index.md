@@ -49,7 +49,6 @@ Please refer to my
 
 ---
 
-
 ## Research Interests
 - Small Object Detection  
 - UAV-based Computer Vision  
@@ -196,8 +195,6 @@ representative publicly available 3D crop datasets.
   </tbody>
 </table>
 
-
-
 **Dataset Acquisition and Reconstruction**  <br>
 
 <p align="center">
@@ -257,44 +254,54 @@ phenotyping tasks.
 
 ---
 
-## Publications (Selected)
+## Upcoming & Ongoing Projects
 
-### 3D-NOD: 3D New Organ Detection in Plant Growth by a Spatiotemporal Point Cloud Deep Segmentation Framework
+### LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes
 
-Dawei Li†, **Foysal Ahmed**†, Z. Wang† <br>
-<strong>Plant Phenomics</strong>, 2025.<br>
+**Sayed Jobaer**†, A. A. M. Muzahid, Muhammad Ather Iqbal Hussain †, Foysal Ahmed †, Xiaoshan Bai, Hua Han, Ferdous Sohel <br>
 † Contributed equally.
 
 **Brief Description:**  
-This paper presents a spatiotemporal deep learning framework for detecting newly emerged plant organs from 4D point cloud sequences.  
-By jointly modeling spatial structure and temporal growth dynamics, the proposed method enables accurate and robust organ-level analysis during plant development.
-
+<p style="text-align: justify;">
+LiteUAV-Det is a robust lightweight object detection framework designed for small, flat, fast-moving, and motion-blurred objects in challenging UAV scenarios. It targets complex aerial environments characterized by high altitude, low illumination, and severe motion blur, where conventional SOTA detectors often fail due to strong pixel-level similarity between targets and background.
+<\p>
+  
 **Resources**  
-- 📄 **Paper:** [https://www.sciencedirect.com](https://doi.org/10.1016/j.plaphe.2025.100002)/  
-- 💻 **Code:** [https://github.com/  ](https://github.com/foysalahmed10/3D-New-Organ-Detection-in-Plant-Growth-from-Spatiotemporal-Point-Clouds)
+- 📄 **Paper:** to be published
+- 💻 **Code:** https://github.com/dhuvisionlab/LiteUAV-Det
 
 <table border="0">
   <tr>
-    <td align="center">
-      <img src="assets/3D-NOD1.gif" width="85%" />
-    </td>
-  </tr>
-</table>
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/3D-NOD2.jpg" width="85%" />
-    </td>
-  </tr>
-</table>
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/3D-NOD3.jpg" width="85%" />
-    </td>
+    <td align="center"><b>Dataset</b></td>
+    <td align="center"><b>mAP<sub>0.5:0.95</sub></b></td>
+    <td align="center"><b>Inference Time</b></td>
+    <td align="center"><b>FPS</b></td>
   </tr>
 </table>
 
+<table border="0">
+  <tr>
+    <td align="center">UAV-SOD</td>
+    <td align="center"><b>34.5%</b></td>
+    <td align="center"><b>2.4 ms</b></td>
+    <td align="center"><b>214</b></td>
+  </tr>
+</table>
+
+<table border="0">
+  <tr>
+    <td align="center">VisDrone2019</td>
+    <td align="center"><b>33.8%</b></td>
+    <td align="center"><b>2.3 ms</b></td>
+    <td align="center"><b>300</b></td>
+  </tr>
+</table>
+
+**Rersults**  <br>
+
+<p align="center">
+  <img src="assets/data_acquisition_pipeline.jpg" width="95%">
+</p>
 
 ---
 
