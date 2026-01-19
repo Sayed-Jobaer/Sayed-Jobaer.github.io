@@ -413,12 +413,76 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
 - 📄 **Paper:** [https://doi.org/10.1016/j.engappai.2025.110466]
 - 💻 **Code:** *(https://github.com/dhuvisionlab/SOD)*  
 
+
+**Results**
+
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>Backbone</th>
+      <th>mAP<sub>50–95</sub></th>
+      <th>AP<sub>50</sub></th>
+      <th>AP<sub>75</sub></th>
+      <th>AP<sub>S</sub></th>
+      <th>AP<sub>M</sub></th>
+      <th>AP<sub>L</sub></th>
+      <th>Params (M)</th>
+      <th>GFLOPs</th>
+      <th>Inference Time (ms)</th>
+      <th>FPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>YOLOv4</td><td>CSPDarknet-53</td><td>27.8</td><td>46.6</td><td>31.2</td><td>21.4</td><td>35.6</td><td>40.7</td><td>0.52</td><td>0.0615</td><td>7.5</td><td>109.8</td></tr>
+    <tr><td>YOLOv4-tiny</td><td>–</td><td>19.7</td><td>39.8</td><td>26.5</td><td>17.5</td><td>23.7</td><td>30.6</td><td><b>0.30</b></td><td><b>0.0068</b></td><td>6.3</td><td>112.3</td></tr>
+
+    <tr><td>YOLOv5n6</td><td>CSPDarknet-53</td><td>31.5</td><td>47.9</td><td>35.2</td><td>24.2</td><td>35.1</td><td>46.3</td><td>3.10</td><td>4.30</td><td>4.9</td><td>153.8</td></tr>
+    <tr><td>YOLOv5s6</td><td>–</td><td>36.2</td><td>54.8</td><td>42.6</td><td>26.8</td><td>36.7</td><td>48.6</td><td>12.30</td><td>16.20</td><td>7.9</td><td>105.2</td></tr>
+    <tr><td>YOLOv5m6</td><td>–</td><td>41.5</td><td>61.6</td><td>48.6</td><td>29.6</td><td>37.5</td><td>51.3</td><td>48.90</td><td>49.00</td><td>15.7</td><td>57.1</td></tr>
+    <tr><td>YOLOv5l6</td><td>–</td><td>42.0</td><td>61.2</td><td>53.1</td><td>29.1</td><td>38.9</td><td>43.4</td><td>112.50</td><td>110.00</td><td>24.7</td><td>38.3</td></tr>
+    <tr><td>YOLOv5x6</td><td>–</td><td>39.6</td><td>60.6</td><td>47.2</td><td>30.7</td><td>39.4</td><td>56.7</td><td>140.00</td><td>208.10</td><td>27.2</td><td>36.7</td></tr>
+
+    <tr><td>YOLOv6-N6</td><td>EfficientRep</td><td>28.9</td><td>44.8</td><td>36.9</td><td>11.4</td><td>23.9</td><td>44.9</td><td>10.30</td><td>49.59</td><td>4.4</td><td>163.6</td></tr>
+    <tr><td>YOLOv6-S6</td><td>–</td><td>31.6</td><td>47.4</td><td>39.3</td><td>13.5</td><td>28.4</td><td>47.1</td><td>41.33</td><td>197.55</td><td>11.1</td><td>77.5</td></tr>
+    <tr><td>YOLOv6-M6</td><td>–</td><td>33.0</td><td>52.0</td><td>41.4</td><td>14.8</td><td>33.0</td><td>55.3</td><td>79.45</td><td>378.28</td><td>24.3</td><td>38.0</td></tr>
+    <tr><td>YOLOv6-L6</td><td>–</td><td>44.3</td><td>63.0</td><td>53.4</td><td>16.4</td><td>34.4</td><td>56.7</td><td>140.22</td><td>672.51</td><td>47.4</td><td>20.4</td></tr>
+
+    <tr><td>YOLOv7-w6</td><td>RepConvN</td><td>45.2</td><td>64.3</td><td>52.2</td><td>25.6</td><td>36.7</td><td>53.6</td><td>81.00</td><td>102.70</td><td>14.2</td><td>61.7</td></tr>
+    <tr><td>YOLOv7-e6</td><td>–</td><td>48.0</td><td>69.0</td><td>55.7</td><td>27.4</td><td>37.6</td><td>57.5</td><td>110.53</td><td>143.70</td><td>22.0</td><td>41.8</td></tr>
+    <tr><td>YOLOv7-d6</td><td>–</td><td>45.4</td><td>64.9</td><td>53.1</td><td>28.7</td><td>39.7</td><td>54.2</td><td>153.00</td><td>197.50</td><td>26.8</td><td>34.7</td></tr>
+    <tr><td>YOLOv7-e6e</td><td>–</td><td>46.8</td><td>67.2</td><td>54.7</td><td>31.4</td><td>41.2</td><td>57.3</td><td>165.00</td><td>227.00</td><td>33.3</td><td>28.4</td></tr>
+
+    <tr><td>YOLOv8n</td><td>CSPDarknet-53</td><td>37.5</td><td>54.4</td><td>43.6</td><td>23.6</td><td>33.2</td><td>40.2</td><td>3.00</td><td>8.10</td><td><b>1.7</b></td><td><b>277.2</b></td></tr>
+    <tr><td>YOLOv8s</td><td>–</td><td>38.3</td><td>56.1</td><td>45.2</td><td>24.4</td><td>35.4</td><td>44.3</td><td>11.12</td><td>28.50</td><td>3.3</td><td>172.4</td></tr>
+    <tr><td>YOLOv8m</td><td>–</td><td>40.5</td><td>58.4</td><td>47.8</td><td>26.1</td><td>36.7</td><td>45.3</td><td>25.80</td><td>78.70</td><td>6.6</td><td>112.3</td></tr>
+    <tr><td>YOLOv8l</td><td>–</td><td>42.4</td><td>59.5</td><td>49.6</td><td>28.9</td><td>37.3</td><td>46.5</td><td>43.60</td><td>164.90</td><td>12.0</td><td>72.9</td></tr>
+    <tr><td>YOLOv8x</td><td>–</td><td>44.7</td><td>61.8</td><td>51.3</td><td>30.5</td><td>39.4</td><td>48.5</td><td>68.10</td><td>257.40</td><td>17.5</td><td>53.1</td></tr>
+
+    <tr>
+      <td><b>YOLO-SOD (Ours)</b></td>
+      <td>CSPDarknet-53</td>
+      <td><b>51.7</b></td>
+      <td><b>71.5</b></td>
+      <td><b>61.9</b></td>
+      <td><b>34.5</b></td>
+      <td><b>43.5</b></td>
+      <td><b>61.7</b></td>
+      <td>145.60</td>
+      <td>235.20</td>
+      <td>32.7</td>
+      <td>30.6</td>
+    </tr>
+  </tbody>
+</table>
+
+
 <table border="0">
   <tr>
     <td align="center">
       <img src="assets/uav_kd_framework_1.png" width="85%" />
       <br>
-      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+      <em>YOLO-SOD adopts a well-structured detection framework consisting of three key components: a robust backbone for feature extraction, an enhanced neck for multi-scale feature fusion, and a detection head for accurate object localization and classification.</em>
     </td>
   </tr>
 </table>
@@ -427,7 +491,16 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
     <td align="center">
       <img src="assets/uav_kd_framework_2.png" width="85%" />
       <br>
-      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+      <em>Overview of key YOLO-SOD modules: (a) Binocular Shape Network (BINSNet), (b) Scale-Adaptive Feature Fusion Module (SAFFM), (c) Deep Binocular Shape Network (DBINSNet), and (d) Special Context Feature Enhancement Module (SCFEM).</em>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/uav_kd_framework_2.png" width="85%" />
+      <br>
+      <em>Visual comparison of YOLO-SOD with five alternative YOLO models (v4-v8) on the SOD-Dataset.</em>
     </td>
   </tr>
 </table>
