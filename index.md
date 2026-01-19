@@ -267,7 +267,8 @@ phenotyping tasks.
 LiteUAV-Det is a robust lightweight object detection framework designed for small, flat, fast-moving, and motion-blurred objects in challenging UAV scenarios. It targets complex aerial environments characterized by high altitude, low illumination, and severe motion blur, where conventional SOTA detectors often fail due to strong pixel-level similarity between targets and background.
 </p>
 
-**Model**
+## LiteUAV-Det Architecture Overview
+
 <table border="0">
   <tr>
     <td align="center">
