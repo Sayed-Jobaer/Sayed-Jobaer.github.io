@@ -534,52 +534,50 @@ The method integrates attention-guided feature distillation and a feature-level 
 <table>
   <thead>
     <tr>
-      <th>Method</th>
-      <th>Backbone</th>
-      <th>mAP<sub>50–95</sub></th>
-      <th>AP<sub>50</sub></th>
-      <th>AP<sub>75</sub></th>
-      <th>AP<sub>S</sub></th>
-      <th>AP<sub>M</sub></th>
-      <th>AP<sub>L</sub></th>
-      <th>Params (M)</th>
-      <th>FLOPs (G)</th>
-      <th>Infer. (ms)</th>
-      <th>FPS</th>
+      <th rowspan="2">Method</th>
+      <th colspan="2">Sharp</th>
+      <th colspan="2">20%</th>
+      <th colspan="2">40%</th>
+      <th colspan="2">60%</th>
+      <th colspan="2">80%</th>
+      <th colspan="2">100%</th>
+    </tr>
+    <tr>
+      <th>F1</th><th>mAP</th>
+      <th>F1</th><th>mAP</th>
+      <th>F1</th><th>mAP</th>
+      <th>F1</th><th>mAP</th>
+      <th>F1</th><th>mAP</th>
+      <th>F1</th><th>mAP</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>YOLOv4</td><td>CSPDarknet-53</td><td>27.8</td><td>46.6</td><td>31.2</td><td>21.4</td><td>35.6</td><td>40.7</td><td>0.52</td><td>0.0615</td><td>7.5</td><td>109.8</td></tr>
-    <tr><td>YOLOv4-tiny</td><td>–</td><td>19.7</td><td>39.8</td><td>26.5</td><td>17.5</td><td>23.7</td><td>30.6</td><td><b>0.30</b></td><td><b>0.0068</b></td><td>6.3</td><td>112.3</td></tr>
-
-    <tr><td>YOLOv5n6</td><td>CSPDarknet-53</td><td>31.5</td><td>47.9</td><td>35.2</td><td>24.2</td><td>35.1</td><td>46.3</td><td>3.10</td><td>4.30</td><td>4.9</td><td>153.8</td></tr>
-    <tr><td>YOLOv5s6</td><td>–</td><td>36.2</td><td>54.8</td><td>42.6</td><td>26.8</td><td>36.7</td><td>48.6</td><td>12.30</td><td>16.20</td><td>7.9</td><td>105.2</td></tr>
-    <tr><td>YOLOv5m6</td><td>–</td><td>41.5</td><td>61.6</td><td>48.6</td><td>29.6</td><td>37.5</td><td>51.3</td><td>48.90</td><td>49.00</td><td>15.7</td><td>57.1</td></tr>
-    <tr><td>YOLOv5l6</td><td>–</td><td>42.0</td><td>61.2</td><td>53.1</td><td>29.1</td><td>38.9</td><td>43.4</td><td>112.50</td><td>110.00</td><td>24.7</td><td>38.3</td></tr>
-    <tr><td>YOLOv5x6</td><td>–</td><td>39.6</td><td>60.6</td><td>47.2</td><td>30.7</td><td>39.4</td><td>56.7</td><td>140.00</td><td>208.10</td><td>27.2</td><td>36.7</td></tr>
-
-    <tr><td>YOLOv6-N6</td><td>EfficientRep</td><td>28.9</td><td>44.8</td><td>36.9</td><td>11.4</td><td>23.9</td><td>44.9</td><td>10.30</td><td>49.59</td><td>4.4</td><td>163.6</td></tr>
-
+    <tr><td>Baseline</td><td>70.1</td><td>62.2</td><td>69.2</td><td>61.7</td><td>68.4</td><td>61.2</td><td>67.6</td><td>60.7</td><td>66.8</td><td>60.2</td><td>66.0</td><td>59.7</td></tr>
+    <tr><td>Mimicking</td><td>60.8</td><td>54.8</td><td>60.3</td><td>54.5</td><td>59.7</td><td>53.1</td><td>59.1</td><td>52.9</td><td>58.5</td><td>52.6</td><td>58.0</td><td>52.3</td></tr>
+    <tr><td>SSKD</td><td>59.8</td><td>49.4</td><td>59.4</td><td>49.0</td><td>58.7</td><td>48.6</td><td>58.1</td><td>48.2</td><td>57.6</td><td>47.9</td><td>57.1</td><td>47.6</td></tr>
+    <tr><td>Fine-grained</td><td>61.7</td><td>50.4</td><td>61.2</td><td>49.9</td><td>60.7</td><td>49.5</td><td>60.3</td><td>49.1</td><td>59.8</td><td>48.6</td><td>59.5</td><td>48.4</td></tr>
+    <tr><td>OFD</td><td>53.7</td><td>43.8</td><td>53.4</td><td>43.6</td><td>52.8</td><td>43.3</td><td>52.4</td><td>42.9</td><td>51.9</td><td>42.6</td><td>51.6</td><td>42.3</td></tr>
+    <tr><td>ReviewKD</td><td>58.3</td><td>48.9</td><td>57.9</td><td>48.6</td><td>57.4</td><td>48.2</td><td>56.9</td><td>47.8</td><td>56.1</td><td>47.5</td><td>54.5</td><td>47.2</td></tr>
+    <tr><td>SSD</td><td>58.7</td><td>41.6</td><td>57.3</td><td>41.3</td><td>56.1</td><td>40.8</td><td>53.5</td><td>40.1</td><td>52.6</td><td>39.8</td><td>50.9</td><td>39.6</td></tr>
+    <tr><td>RetinaNet</td><td>61.6</td><td>46.7</td><td>61.3</td><td>45.9</td><td>59.4</td><td>45.7</td><td>58.7</td><td>45.3</td><td>57.1</td><td>44.9</td><td>56.7</td><td>44.6</td></tr>
+    <tr><td>YOLOv5</td><td>64.2</td><td>59.4</td><td>63.8</td><td>58.7</td><td>63.4</td><td>58.2</td><td>62.8</td><td>57.6</td><td>62.4</td><td>56.8</td><td>62.0</td><td>55.5</td></tr>
+    <tr><td>YOLOv6</td><td>68.4</td><td>57.3</td><td>67.8</td><td>56.8</td><td>66.8</td><td>56.2</td><td>66.3</td><td>55.7</td><td>64.9</td><td>55.2</td><td>66.3</td><td>54.8</td></tr>
+    <tr><td>YOLOv7</td><td>75.8</td><td>61.7</td><td>74.5</td><td>61.3</td><td>73.4</td><td>60.1</td><td>71.3</td><td>58.6</td><td>69.5</td><td>57.9</td><td>68.8</td><td>57.3</td></tr>
+    <tr><td>YOLOv8</td><td>73.4</td><td>65.7</td><td>72.9</td><td>65.2</td><td>72.4</td><td>64.5</td><td>71.9</td><td>63.7</td><td>71.4</td><td>62.9</td><td>69.8</td><td>61.1</td></tr>
+    <tr><td>SuperYOLO</td><td>75.2</td><td>65.3</td><td>74.3</td><td>64.8</td><td>73.6</td><td>64.1</td><td>72.5</td><td>63.5</td><td>71.3</td><td>62.8</td><td>70.1</td><td>62.2</td></tr>
     <tr>
-      <td><b>YOLO-SOD (Ours)</b></td>
-      <td>CSPDarknet-53</td>
-      <td><b>51.7</b></td>
-      <td><b>71.5</b></td>
-      <td><b>61.9</b></td>
-      <td><b>34.5</b></td>
-      <td><b>43.5</b></td>
-      <td><b>61.7</b></td>
-      <td>145.60</td>
-      <td>235.20</td>
-      <td>32.7</td>
-      <td>30.6</td>
+      <td><b>Ours</b></td>
+      <td><b>76.9</b></td><td><b>66.8</b></td>
+      <td><b>75.6</b></td><td><b>66.3</b></td>
+      <td><b>74.4</b></td><td><b>65.7</b></td>
+      <td><b>73.6</b></td><td><b>65.2</b></td>
+      <td><b>72.4</b></td><td><b>64.7</b></td>
+      <td><b>71.3</b></td><td><b>64.3</b></td>
     </tr>
   </tbody>
 </table>
 
 </div>
-
-
 
 <table border="0">
   <tr>
