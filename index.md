@@ -708,7 +708,6 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 
 <hr>
 
-<!-- ================= VISITOR STATISTICS ================= -->
 <div class="site-stats">
 
   <p class="page-views">
@@ -719,36 +718,50 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
     <script
       type="text/javascript"
       id="mmvst_globe"
-      src="//mapmyvisitors.com/globe.js?d=_hWUodtZRAlm6HykAXB9pO3DOpUUhQQ7sCp_kY9ZW00">
+      src="https://mapmyvisitors.com/globe.js?d=_hWUodtZRAlm6HykAXB9pO3DOpUUhQQ7sCp_kY9ZW00">
     </script>
   </div>
 
 </div>
 
 <script async
-  src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 
-<!-- ================= DIGITAL CLOCK ================= -->
 <p id="digital-clock"
    style="text-align:center;
           font-family: monospace;
           font-size: 0.85em;
           color: #777;
           margin-top: 1.5em;">
+  Loading time…
+</p>
+
+<p style="text-align:center; font-size:0.8em; color:#888;">
+  Last updated: {{ site.time | date: "%B %d, %Y" }}
 </p>
 
 <script>
   function updateClock() {
     const now = new Date();
+    const options = {
+      timeZone: "Asia/Shanghai",
+      year: "numeric",
+      month: "long",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit"
+    };
+
     document.getElementById("digital-clock").innerHTML =
-      "Local time: " + now.toLocaleString();
+      "Shanghai time: " + now.toLocaleString("en-US", options);
   }
+
   updateClock();
   setInterval(updateClock, 1000);
 </script>
 
-<!-- ================= FOOTER STYLES ================= -->
 <style>
 .site-stats {
   margin-top: 2.5em;
@@ -772,4 +785,12 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   width: 100% !important;
   max-width: 100% !important;
 }
+
+/* Hide globe on mobile */
+@media (max-width: 768px) {
+  .visitor-map {
+    display: none;
+  }
+}
 </style>
+
