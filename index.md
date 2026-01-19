@@ -5,7 +5,31 @@ layout: default
 
 ### COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
 
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+<p align="center" style="font-size:1.2em;">
+
+<a href="mailto:your_email@domain.com" title="Email">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://github.com/yourusername" target="_blank" title="GitHub">
+  <i class="fa-brands fa-github"></i>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="assets/CV_Sayed_Jobaer.pdf" target="_blank" title="Curriculum Vitae">
+  <i class="fa-solid fa-file-pdf"></i>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://scholar.google.com/citations?user=fCM8lL8AAAAJ" target="_blank" title="Google Scholar">
+  <i class="fa-solid fa-graduation-cap"></i>
+</a>
+
+</p>
 
 ---
 
