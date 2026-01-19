@@ -788,6 +788,7 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 <!-- Busuanzi Counter Script -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- Footer Styles -->
 <style>
 /* Footer visitor statistics */
 .site-stats {
@@ -808,15 +809,6 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   margin: 0 auto;
 }
 
-  ## Professional Activities
-
-- Research-driven product development in UAV vision systems  
-- Industry–academia collaboration  
-- Supervision and mentoring of junior researchers  
-- Open-source research contributions (code released upon publication acceptance)
-
----
-  
 /* Make MapMyVisitors globe responsive */
 #mmvst_globe,
 #mmvst_globe iframe,
@@ -825,3 +817,4 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   max-width: 100% !important;
 }
 </style>
+
