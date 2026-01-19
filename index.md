@@ -95,6 +95,7 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 - Achieves +4.2% mAP on VisDrone2019 and +2.9% mAP on UAV-SOD compared to YOLOv9s (7.17M parameters).
 
 <div align="center">
+
 <table>
   <tr>
     <th>Dataset</th>
@@ -103,20 +104,21 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
     <th>FPS</th>
   </tr>
   <tr>
-    <td>UAV-SOD</td>
-    <td><b>34.5%</b></td>
-    <td><b>2.4 ms</b></td>
-    <td><b>214</b></td>
+    <td align="center">UAV-SOD</td>
+    <td align="center"><b>34.5%</b></td>
+    <td align="center"><b>2.4 ms</b></td>
+    <td align="center"><b>214</b></td>
   </tr>
   <tr>
-    <td>VisDrone2019</td>
-    <td><b>33.8%</b></td>
-    <td><b>2.3 ms</b></td>
-    <td><b>300</b></td>
+    <td align="center">VisDrone2019</td>
+    <td align="center"><b>33.8%</b></td>
+    <td align="center"><b>2.3 ms</b></td>
+    <td align="center"><b>300</b></td>
   </tr>
 </table>
 
 </div>
+
 
 
 <p align="center">
