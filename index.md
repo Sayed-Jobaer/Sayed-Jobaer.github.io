@@ -15,7 +15,7 @@ layout: default
 </a>
 &nbsp;&nbsp;&nbsp;
 
-<a href="assets/cv.pdf" target="_blank" title="Curriculum Vitae">
+<a href="assets/CV_Sayed_Jobaer.pdf" target="_blank" title="Curriculum Vitae">
   <i class="fa-solid fa-file-pdf"></i>
 </a>
 &nbsp;&nbsp;&nbsp;
@@ -36,15 +36,15 @@ layout: default
   COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.
 </h3>
 
-<!-- ================= RIGHT-SIDE QUICK LINKS ================= -->
+<!-- ================= LEFT-SIDE QUICK LINKS ================= -->
 <div style="
   position: fixed;
   top: 35%;
-  right: 20px;
-  text-align: right;
-  font-size: 0.95em;
+  left: 18px;
+  text-align: left;
+  font-size: 0.9em;
   line-height: 1.8;
-  opacity: 0.85;
+  opacity: 0.75;
   z-index: 1000;
 ">
 
