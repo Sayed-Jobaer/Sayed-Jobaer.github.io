@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<span style="color:#1f77b4;">
-COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
-</span>
+
+## COO & Co-Founder, Shanghai Auribay Technology Co., Ltd.
+
 
 
 ---
