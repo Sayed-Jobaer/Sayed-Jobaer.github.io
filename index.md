@@ -392,7 +392,7 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
   <img src="assets/Fig.14.jpg" width="90%">
 </p>
 <p align="center">
-  <b>Figure 1.</b> A comparison of the same input image before and after applying brightness enhancement techniques.
+  <b>Figure.</b> A comparison of the same input image before and after applying brightness enhancement techniques.
 </p>
 
 
