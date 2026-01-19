@@ -268,6 +268,15 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 </p>
 
 **Model**
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/yolo_sod_1.jpg" width="85%" />
+      <br>
+      <em>YOLO-SOD adopts a well-structured detection framework consisting of three key components: a robust backbone for feature extraction, an enhanced neck for multi-scale feature fusion, and a detection head for accurate object localization and classification.</em>
+    </td>
+  </tr>
+</table>
   
 **Resources**  
 - 📄 **Paper:** to be published
