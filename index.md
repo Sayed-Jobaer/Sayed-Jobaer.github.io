@@ -271,13 +271,13 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 - 💻 **Code:** [https://github.com/  ](https://github.com/foysalahmed10/Pepper-4D)
 
 **Introduction** <br>
-<p style="text-align: justify;">
+
 
 Three-dimensional (3D) plant phenotyping plays a crucial role in analyzing plant structure, organ-level traits, and growth dynamics. While recent advances in 2D and 3D vision have accelerated research in plant phenotyping, publicly available **spatiotemporal 3D datasets for pepper plants** remain extremely limited.
 
 Pepper-4D addresses this gap by providing a **comprehensive 4D (3D + time) point cloud dataset** capturing the complete growth and developmental process of pepper plants under controlled indoor conditions.
 The dataset enables detailed analysis of plant structure, organ dynamics, temporal growth patterns, and plant health status. Pepper-4D is designed as a benchmark resource for both discriminative and generative learning methods on 3D plant point clouds.
-</p>
+
 
 **Dataset Overview**  <br>
 
