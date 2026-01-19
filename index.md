@@ -302,7 +302,9 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
   <img src="assets/Fig.1.png" width="95%">
 </p>
 
-**Rersults**  <br>
+**Results**  <br>
+
+<div style="overflow-x: auto;">
 <table>
   <thead>
     <tr>
@@ -387,6 +389,7 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
     </tr>
   </tbody>
 </table>
+</div>
 
 <p align="center">
   <img src="assets/Fig.14.jpg" width="90%">
