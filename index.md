@@ -396,7 +396,44 @@ LiteUAV-Det is a robust lightweight object detection framework designed for smal
 </p>
 
 
+
 ---
+
+### A deep neural network for small object detection in complex environments with unmanned aerial vehicle imagery
+
+**Sayed Jobaer**, Xue-song Tang, Yihong Zhang,  
+<strong>Engineering Applications of Artificial Intelligence</strong>, 2025.  
+
+**Brief Description:**  
+<p style="text-align: justify;">
+YOLO-SOD is a YOLOv5-based small object detection framework designed for complex UAV environments. It addresses challenges caused by high-altitude views, low-light conditions, and strong object–background similarity by introducing a Luna-enhancement mechanism, four novel detection modules, and a dedicated SOD dataset. The approach significantly improves detection accuracy and robustness for small and flat objects in aerial imagery.
+</p> 
+
+**Resources**  
+- 📄 **Paper:** [https://doi.org/10.1016/j.engappai.2025.110466]
+- 💻 **Code:** *(https://github.com/dhuvisionlab/SOD)*  
+
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/uav_kd_framework_1.png" width="85%" />
+      <br>
+      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/uav_kd_framework_2.png" width="85%" />
+      <br>
+      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+    </td>
+  </tr>
+</table>
+
+---
+
 
 ### A Novel Knowledge Distillation Framework for Enhancing Small Object Detection in Blurry Environments with UAV-Assisted Images
 
