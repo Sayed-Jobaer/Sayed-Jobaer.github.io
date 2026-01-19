@@ -537,7 +537,7 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
 
 ### A Novel Knowledge Distillation Framework for Enhancing Small Object Detection in Blurry Environments with UAV-Assisted Images
 
-Sayed Jobaer, Xue-song Tang, Yihong Zhang, Gaojian Li, **Foysal Ahmed**  
+**Sayed Jobaer**, Xue-song Tang, Yihong Zhang, Gaojian Li, Foysal Ahmed  
 <strong>Complex & Intelligent Systems</strong>, 2025.  
 
 **Brief Description:**  
@@ -638,7 +638,7 @@ The method integrates attention-guided feature distillation and a feature-level 
 
 ### UAV-Assisted Hybrid Scheme for Urban Road Safety Based on VANETs
 
-Sayed Jobaer, Yihong Zhang*, Muhammad Ather Iqbal Hussain, **Foysal Ahmed**<br>
+**Sayed Jobaer**, Yihong Zhang*, Muhammad Ather Iqbal Hussain, Foysal Ahmed<br>
 <strong>Electronics</strong>, 2020.<br>
 *Corresponding author.*
 
