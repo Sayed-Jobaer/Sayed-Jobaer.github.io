@@ -708,35 +708,30 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 
 
 ---
-
-
 <hr>
 
-<!-- Visitor Statistics (Footer) -->
+<!-- Visitor Statistics -->
 <div class="site-stats">
 
-  <!-- Page View Counter -->
   <p class="page-views">
     Page views: <span id="busuanzi_value_site_pv">—</span>
   </p>
 
-  <!-- Visitor Map -->
   <div class="visitor-map">
-    <script 
-      type="text/javascript" 
-      id="mmvst_globe" 
+    <script
+      type="text/javascript"
+      id="mmvst_globe"
       src="//mapmyvisitors.com/globe.js?d=_hWUodtZRAlm6HykAXB9pO3DOpUUhQQ7sCp_kY9ZW00">
     </script>
   </div>
 
 </div>
 
-<!-- Busuanzi Counter Script -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async
+  src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 
-<!-- Footer Styles -->
 <style>
-/* Footer visitor statistics */
 .site-stats {
   margin-top: 2.5em;
   text-align: center;
@@ -744,18 +739,15 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   color: #666;
 }
 
-/* Page view text */
 .site-stats .page-views {
   margin-bottom: 1em;
 }
 
-/* Visitor map container */
 .site-stats .visitor-map {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* Make MapMyVisitors globe responsive */
 #mmvst_globe,
 #mmvst_globe iframe,
 #mmvst_globe canvas {
@@ -763,4 +755,3 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   max-width: 100% !important;
 }
 </style>
-
