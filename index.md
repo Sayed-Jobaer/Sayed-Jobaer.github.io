@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- ================= ICON BAR ================= -->
 <p align="center" style="font-size:1.2em;">
 
 <a href="mailto:sayedjobaer@hotmail.com" title="Email">
@@ -14,7 +15,7 @@ layout: default
 </a>
 &nbsp;&nbsp;&nbsp;
 
-<a href="assets/CV_Sayed_Jobaer.pdf" target="_blank" title="Curriculum Vitae">
+<a href="assets/cv.pdf" target="_blank" title="Curriculum Vitae">
   <i class="fa-solid fa-file-pdf"></i>
 </a>
 &nbsp;&nbsp;&nbsp;
@@ -26,20 +27,66 @@ layout: default
 
 </p>
 
+<!-- ================= NAME & TITLE ================= -->
 <h1 align="center" style="margin-bottom:5px;">
   Dr. Sayed Jobaer
 </h1>
+
 <h3 align="center" style="margin-top:0;">
   COO &amp; Co-Founder, Shanghai Auribay Technology Co., Ltd.
 </h3>
 
-<p align="center" style="margin-top:10px; font-size:1.05em;">
-  <a href="#about">About</a> ·
-  <a href="#research">Research</a> ·
-  <a href="#projects">Projects</a> ·
-  <a href="#publications">Publications</a> ·
-  <a href="#datasets">Datasets</a> ·
+<!-- ================= RIGHT-SIDE QUICK LINKS ================= -->
+<div style="
+  position: fixed;
+  top: 35%;
+  right: 20px;
+  text-align: right;
+  font-size: 0.95em;
+  line-height: 1.8;
+  opacity: 0.85;
+  z-index: 1000;
+">
+
+  <a href="#about">About</a><br>
+  <a href="#research">Research</a><br>
+  <a href="#projects">Projects</a><br>
+  <a href="#publications">Publications</a><br>
+  <a href="#datasets">Datasets</a><br>
   <a href="#contact">Contact</a>
+
+</div>
+
+<!-- ================= PAGE CONTENT ================= -->
+
+<h2 id="about">About</h2>
+<p>
+Brief introduction about yourself goes here.
+</p>
+
+<h2 id="research">Research Interests</h2>
+<p>
+Your research interests go here.
+</p>
+
+<h2 id="projects">Projects</h2>
+<p>
+LiteUAV-Det, YOLO-SOD, Pepper-4D, etc.
+</p>
+
+<h2 id="publications">Publications</h2>
+<p>
+Your selected publications.
+</p>
+
+<h2 id="datasets">Datasets</h2>
+<p>
+UAV-SOD, Pepper-4D, etc.
+</p>
+
+<h2 id="contact">Contact</h2>
+<p>
+Email: sayedjobaer@hotmail.com
 </p>
 
 
