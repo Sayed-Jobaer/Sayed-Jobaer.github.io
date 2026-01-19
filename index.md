@@ -428,7 +428,7 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
 <table border="0">
   <tr>
     <td align="center">
-      <img src="assets/yolo_sod_1.jpg" width="85%" />
+      <img src="assets/yolo_sod_1.png" width="85%" />
       <br>
       <em>YOLO-SOD adopts a well-structured detection framework consisting of three key components: a robust backbone for feature extraction, an enhanced neck for multi-scale feature fusion, and a detection head for accurate object localization and classification.</em>
     </td>
