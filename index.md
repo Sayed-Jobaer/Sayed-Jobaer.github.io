@@ -529,7 +529,7 @@ The method integrates attention-guided feature distillation and a feature-level 
     <td align="center">
       <img src="assets/kd_model_1.jpg" width="85%" />
       <br>
-      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+      <em>Overview of our proposed knowledge distillation of the framework.</em>
     </td>
   </tr>
 </table>
