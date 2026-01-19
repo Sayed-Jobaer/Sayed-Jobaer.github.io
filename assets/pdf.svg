@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22">
+  <!-- Document shape -->
+  <path fill="currentColor" d="M6 2h9l5 5v15c0 1.1-.9 2-2 2H6
+    c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2zm8 1.5V8h4.5L14 3.5z"></path>
+
+  <!-- PDF label background -->
+  <rect x="6" y="15" width="12" height="4.5" rx="0.8" ry="0.8" fill="#d32f2f"></rect>
+
+  <!-- PDF text (centered correctly) -->
+  <text x="12" y="17.25" text-anchor="middle" dominant-baseline="middle" font-size="4.2" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-weight="bold">
+    PDF
+  </text>
+</svg>
