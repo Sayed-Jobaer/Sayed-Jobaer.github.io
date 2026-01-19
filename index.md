@@ -604,7 +604,7 @@ The method integrates attention-guided feature distillation and a feature-level 
     <td align="center">
       <img src="assets/uav_kd_framework_2.png" width="85%" />
       <br>
-      <em>Overview of the proposed knowledge distillation and feature-level deblurring framework.</em>
+      <em>Detection results under different motion speeds on the SOD-Dataset. As motion speed increases, detection becomes more challenging. Existing methods struggle with small and blurry objects beyond 40% motion speed, while our approach better deblurs the scene and maintains more reliable detection performance.</em>
     </td>
   </tr>
 </table>
