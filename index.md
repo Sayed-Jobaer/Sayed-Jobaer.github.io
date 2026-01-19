@@ -10,7 +10,7 @@ layout: default
 </a>
 &nbsp;&nbsp;&nbsp;
 
-<a href="https://github.com/Sayed-Jobaer" target="_blank" title="GitHub">
+<a href="[https://github.com/dhuvisionlab]" target="_blank" title="GitHub">
   <i class="fa-brands fa-github"></i>
 </a>
 &nbsp;&nbsp;&nbsp;
