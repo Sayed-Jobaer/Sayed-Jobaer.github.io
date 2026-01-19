@@ -61,6 +61,164 @@ Please refer to my
 - Generative Models (GANs, Diffusion Models)  
 
 ---
+## Upcoming & Ongoing Projects
+
+### LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes
+
+**Sayed Jobaer**†, A. A. M. Muzahid, Muhammad Ather Iqbal Hussain †, Foysal Ahmed †, Xiaoshan Bai, Hua Han, Ferdous Sohel <br>
+† Contributed equally.
+
+**Brief Description:**  
+
+<p style="text-align: justify;">
+LiteUAV-Det is a robust lightweight object detection framework designed for small, flat, fast-moving, and motion-blurred objects in challenging UAV scenarios. It targets complex aerial environments characterized by high altitude, low illumination, and severe motion blur, where conventional SOTA detectors often fail due to strong pixel-level similarity between targets and background.
+</p>
+
+## LiteUAV-Det Architecture Overview
+
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/uavdet_model.jpg" width="85%" />
+      <br>
+      <em> A schematic illustration of the detector architecture for small object recognition.</em>
+    </td>
+  </tr>
+</table>
+  
+**Resources**  
+- 📄 **Paper:** to be published
+- 💻 **Code:** https://github.com/dhuvisionlab/LiteUAV-Det
+
+**Outperforms comparable lightweight detectors**
+
+- Achieves +4.2% mAP on VisDrone2019 and +2.9% mAP on UAV-SOD compared to YOLOv9s (7.17M parameters).
+
+<table border="0">
+  
+  <tr>
+    <th>Dataset</th>
+    <th>mAP<sub>0.5:0.95</sub></th>
+    <th>Inference Time</th>
+    <th>FPS</th>
+  </tr>
+  <tr>
+    <td>UAV-SOD</td>
+    <td><b>34.5%</b></td>
+    <td><b>2.4 ms</b></td>
+    <td><b>214</b></td>
+  </tr>
+  <tr>
+    <td>VisDrone2019</td>
+    <td><b>33.8%</b></td>
+    <td><b>2.3 ms</b></td>
+    <td><b>300</b></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/Fig.1.png" width="95%">
+</p>
+
+**Results**  <br>
+
+<div style="overflow-x: auto;">
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>Backbone</th>
+      <th>FLOPs (G)</th>
+      <th>Params (M)</th>
+      <th>Layers</th>
+      <th>mAP<sub>0.50</sub><sup>val</sup></th>
+      <th>mAP<sub>0.50–0.95</sub><sup>val</sup></th>
+      <th>Model Size (MB)</th>
+      <th>Inference Time (ms)</th>
+      <th>FPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>YOLOv5s</td><td>CSPDarknet-53</td><td><b>16.8</b></td><td>12.60</td><td>193</td><td><b>53.7</b></td><td>34.3</td><td>17.7</td><td>2.5</td><td>211.0</td>
+    </tr>
+    <tr>
+      <td>YOLOv6s</td><td>EfficientRep</td><td>45.3</td><td>18.50</td><td><b>142</b></td><td>53.5</td><td>34.2</td><td>31.3</td><td>2.7</td><td>168.8</td>
+    </tr>
+    <tr>
+      <td>YOLOv7</td><td>RepConvN</td><td>103.3</td><td>36.52</td><td>314</td><td>53.2</td><td>34.4</td><td>74.9</td><td>4.4</td><td>71.3</td>
+    </tr>
+    <tr>
+      <td>YOLOv8s</td><td>CSPDarknet-53</td><td>28.5</td><td>11.12</td><td>168</td><td>51.2</td><td>33.8</td><td>21.5</td><td>2.7</td><td>193.4</td>
+    </tr>
+    <tr>
+      <td>YOLOv9s</td><td>RepConvN</td><td>26.7</td><td>7.17</td><td>486</td><td>48.5</td><td>30.9</td><td>15.2</td><td>3.9</td><td>79.3</td>
+    </tr>
+    <tr>
+      <td>YOLOv10s</td><td>CSPDarknet-53</td><td>24.5</td><td>8.04</td><td>293</td><td>49.0</td><td>31.8</td><td>16.5</td><td>3.3</td><td>95.3</td>
+    </tr>
+    <tr>
+      <td>YOLOv11s</td><td>CSPDarknet-53</td><td>21.5</td><td>9.40</td><td>181</td><td>51.6</td><td>33.7</td><td>18.4</td><td>2.5</td><td>198.4</td>
+    </tr>
+    <tr>
+      <td>YOLOv12s</td><td>EfficientViT</td><td>19.7</td><td>9.30</td><td>497</td><td>52.0</td><td>33.2</td><td>17.8</td><td>2.6</td><td>187.2</td>
+    </tr>
+    <tr>
+      <td>YOLOv13s</td><td>CSPDarknet-53</td><td>20.8</td><td>9.10</td><td>687</td><td>52.2</td><td>33.5</td><td>35.2</td><td>3.0</td><td>120.6</td>
+    </tr>
+    <tr>
+      <td>YOLO-JD</td><td>CSPDarknet-53</td><td>22.3</td><td>7.41</td><td>186</td><td>48.4</td><td>30.3</td><td>18.8</td><td>3.2</td><td>173.7</td>
+    </tr>
+    <tr>
+      <td>SSD</td><td>VGG16</td><td>34.8</td><td>138.00</td><td>–</td><td>41.6</td><td>23.4</td><td>104.0</td><td>40.3</td><td>21.2</td>
+    </tr>
+    <tr>
+      <td>RetinaNet</td><td>ResNet-101</td><td>85.4</td><td>57.50</td><td>–</td><td>46.7</td><td>28.5</td><td>146.2</td><td>12.4</td><td>76.4</td>
+    </tr>
+    <tr>
+      <td>GLSAN</td><td>Cascade R-CNN</td><td>2186.7</td><td>590.86</td><td>–</td><td>51.4</td><td>31.4</td><td>14.7</td><td>67.6</td><td>12.7</td>
+    </tr>
+    <tr>
+      <td>DMNet</td><td>Faster R-CNN</td><td>4492.1</td><td>228.43</td><td>–</td><td>46.8</td><td>32.8</td><td>315.0</td><td>175.4</td><td>5.3</td>
+    </tr>
+    <tr>
+      <td>DINO</td><td>ResNet-50</td><td>475.6</td><td>46.98</td><td>–</td><td>47.8</td><td>30.8</td><td>84.1</td><td>157.3</td><td>4.8</td>
+    </tr>
+    <tr>
+      <td>RT-DETR</td><td>ResNet-50</td><td>125.7</td><td>45.42</td><td>–</td><td>43.9</td><td>27.5</td><td>23.94</td><td>9.5</td><td>98.7</td>
+    </tr>
+    <tr>
+      <td>QueryDet</td><td>ResNet-50</td><td>96.7</td><td>36.54</td><td>–</td><td>36.8</td><td>23.8</td><td>142.2</td><td>205.7</td><td>2.6</td>
+    </tr>
+    <tr>
+      <td>CZ Det</td><td>ResNet-101</td><td>161.2</td><td>45.99</td><td>–</td><td>49.2</td><td>32.2</td><td>86.2</td><td>85.8</td><td>9.3</td>
+    </tr>
+    <tr>
+      <td><b>LiteUAV-Det (Ours)</b></td>
+      <td>CSPDarknet-53</td>
+      <td>17.2</td>
+      <td><b>6.38</b></td>
+      <td>204</td>
+      <td>53.4</td>
+      <td><b>34.5</b></td>
+      <td><b>12.4</b></td>
+      <td><b>2.4</b></td>
+      <td><b>213.9</b></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p align="center">
+  <img src="assets/Fig.14.jpg" width="90%">
+</p>
+<p align="center">
+  <b>Figure.</b> A comparison of the same input image before and after applying brightness enhancement techniques.
+</p>
+
+
+---
+
 
 ## Upcoming & Ongoing Projects
 
@@ -254,164 +412,6 @@ phenotyping tasks.
 
 ---
 
-## Upcoming & Ongoing Projects
-
-### LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes
-
-**Sayed Jobaer**†, A. A. M. Muzahid, Muhammad Ather Iqbal Hussain †, Foysal Ahmed †, Xiaoshan Bai, Hua Han, Ferdous Sohel <br>
-† Contributed equally.
-
-**Brief Description:**  
-
-<p style="text-align: justify;">
-LiteUAV-Det is a robust lightweight object detection framework designed for small, flat, fast-moving, and motion-blurred objects in challenging UAV scenarios. It targets complex aerial environments characterized by high altitude, low illumination, and severe motion blur, where conventional SOTA detectors often fail due to strong pixel-level similarity between targets and background.
-</p>
-
-## LiteUAV-Det Architecture Overview
-
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="assets/uavdet_model.jpg" width="85%" />
-      <br>
-      <em> A schematic illustration of the detector architecture for small object recognition.</em>
-    </td>
-  </tr>
-</table>
-  
-**Resources**  
-- 📄 **Paper:** to be published
-- 💻 **Code:** https://github.com/dhuvisionlab/LiteUAV-Det
-
-**Outperforms comparable lightweight detectors**
-
-- Achieves +4.2% mAP on VisDrone2019 and +2.9% mAP on UAV-SOD compared to YOLOv9s (7.17M parameters).
-
-<table border="0">
-  
-  <tr>
-    <th>Dataset</th>
-    <th>mAP<sub>0.5:0.95</sub></th>
-    <th>Inference Time</th>
-    <th>FPS</th>
-  </tr>
-  <tr>
-    <td>UAV-SOD</td>
-    <td><b>34.5%</b></td>
-    <td><b>2.4 ms</b></td>
-    <td><b>214</b></td>
-  </tr>
-  <tr>
-    <td>VisDrone2019</td>
-    <td><b>33.8%</b></td>
-    <td><b>2.3 ms</b></td>
-    <td><b>300</b></td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="assets/Fig.1.png" width="95%">
-</p>
-
-**Results**  <br>
-
-<div style="overflow-x: auto;">
-<table>
-  <thead>
-    <tr>
-      <th>Methods</th>
-      <th>Backbone</th>
-      <th>FLOPs (G)</th>
-      <th>Params (M)</th>
-      <th>Layers</th>
-      <th>mAP<sub>0.50</sub><sup>val</sup></th>
-      <th>mAP<sub>0.50–0.95</sub><sup>val</sup></th>
-      <th>Model Size (MB)</th>
-      <th>Inference Time (ms)</th>
-      <th>FPS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>YOLOv5s</td><td>CSPDarknet-53</td><td><b>16.8</b></td><td>12.60</td><td>193</td><td><b>53.7</b></td><td>34.3</td><td>17.7</td><td>2.5</td><td>211.0</td>
-    </tr>
-    <tr>
-      <td>YOLOv6s</td><td>EfficientRep</td><td>45.3</td><td>18.50</td><td><b>142</b></td><td>53.5</td><td>34.2</td><td>31.3</td><td>2.7</td><td>168.8</td>
-    </tr>
-    <tr>
-      <td>YOLOv7</td><td>RepConvN</td><td>103.3</td><td>36.52</td><td>314</td><td>53.2</td><td>34.4</td><td>74.9</td><td>4.4</td><td>71.3</td>
-    </tr>
-    <tr>
-      <td>YOLOv8s</td><td>CSPDarknet-53</td><td>28.5</td><td>11.12</td><td>168</td><td>51.2</td><td>33.8</td><td>21.5</td><td>2.7</td><td>193.4</td>
-    </tr>
-    <tr>
-      <td>YOLOv9s</td><td>RepConvN</td><td>26.7</td><td>7.17</td><td>486</td><td>48.5</td><td>30.9</td><td>15.2</td><td>3.9</td><td>79.3</td>
-    </tr>
-    <tr>
-      <td>YOLOv10s</td><td>CSPDarknet-53</td><td>24.5</td><td>8.04</td><td>293</td><td>49.0</td><td>31.8</td><td>16.5</td><td>3.3</td><td>95.3</td>
-    </tr>
-    <tr>
-      <td>YOLOv11s</td><td>CSPDarknet-53</td><td>21.5</td><td>9.40</td><td>181</td><td>51.6</td><td>33.7</td><td>18.4</td><td>2.5</td><td>198.4</td>
-    </tr>
-    <tr>
-      <td>YOLOv12s</td><td>EfficientViT</td><td>19.7</td><td>9.30</td><td>497</td><td>52.0</td><td>33.2</td><td>17.8</td><td>2.6</td><td>187.2</td>
-    </tr>
-    <tr>
-      <td>YOLOv13s</td><td>CSPDarknet-53</td><td>20.8</td><td>9.10</td><td>687</td><td>52.2</td><td>33.5</td><td>35.2</td><td>3.0</td><td>120.6</td>
-    </tr>
-    <tr>
-      <td>YOLO-JD</td><td>CSPDarknet-53</td><td>22.3</td><td>7.41</td><td>186</td><td>48.4</td><td>30.3</td><td>18.8</td><td>3.2</td><td>173.7</td>
-    </tr>
-    <tr>
-      <td>SSD</td><td>VGG16</td><td>34.8</td><td>138.00</td><td>–</td><td>41.6</td><td>23.4</td><td>104.0</td><td>40.3</td><td>21.2</td>
-    </tr>
-    <tr>
-      <td>RetinaNet</td><td>ResNet-101</td><td>85.4</td><td>57.50</td><td>–</td><td>46.7</td><td>28.5</td><td>146.2</td><td>12.4</td><td>76.4</td>
-    </tr>
-    <tr>
-      <td>GLSAN</td><td>Cascade R-CNN</td><td>2186.7</td><td>590.86</td><td>–</td><td>51.4</td><td>31.4</td><td>14.7</td><td>67.6</td><td>12.7</td>
-    </tr>
-    <tr>
-      <td>DMNet</td><td>Faster R-CNN</td><td>4492.1</td><td>228.43</td><td>–</td><td>46.8</td><td>32.8</td><td>315.0</td><td>175.4</td><td>5.3</td>
-    </tr>
-    <tr>
-      <td>DINO</td><td>ResNet-50</td><td>475.6</td><td>46.98</td><td>–</td><td>47.8</td><td>30.8</td><td>84.1</td><td>157.3</td><td>4.8</td>
-    </tr>
-    <tr>
-      <td>RT-DETR</td><td>ResNet-50</td><td>125.7</td><td>45.42</td><td>–</td><td>43.9</td><td>27.5</td><td>23.94</td><td>9.5</td><td>98.7</td>
-    </tr>
-    <tr>
-      <td>QueryDet</td><td>ResNet-50</td><td>96.7</td><td>36.54</td><td>–</td><td>36.8</td><td>23.8</td><td>142.2</td><td>205.7</td><td>2.6</td>
-    </tr>
-    <tr>
-      <td>CZ Det</td><td>ResNet-101</td><td>161.2</td><td>45.99</td><td>–</td><td>49.2</td><td>32.2</td><td>86.2</td><td>85.8</td><td>9.3</td>
-    </tr>
-    <tr>
-      <td><b>LiteUAV-Det (Ours)</b></td>
-      <td>CSPDarknet-53</td>
-      <td>17.2</td>
-      <td><b>6.38</b></td>
-      <td>204</td>
-      <td>53.4</td>
-      <td><b>34.5</b></td>
-      <td><b>12.4</b></td>
-      <td><b>2.4</b></td>
-      <td><b>213.9</b></td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p align="center">
-  <img src="assets/Fig.14.jpg" width="90%">
-</p>
-<p align="center">
-  <b>Figure.</b> A comparison of the same input image before and after applying brightness enhancement techniques.
-</p>
-
-
-
----
 
 ### A deep neural network for small object detection in complex environments with unmanned aerial vehicle imagery
 
