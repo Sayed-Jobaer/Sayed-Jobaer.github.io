@@ -479,7 +479,7 @@ YOLO-SOD is a YOLOv5-based small object detection framework designed for complex
     </tr>
   </tbody>
 </table>
-</div>
+</div> 
 
 <table border="0">
   <tr>
