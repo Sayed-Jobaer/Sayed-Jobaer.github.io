@@ -706,11 +706,9 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
 </table>
 
 
-
----
 <hr>
 
-<!-- Visitor Statistics -->
+<!-- ================= VISITOR STATISTICS ================= -->
 <div class="site-stats">
 
   <p class="page-views">
@@ -731,6 +729,26 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 
+<!-- ================= DIGITAL CLOCK ================= -->
+<p id="digital-clock"
+   style="text-align:center;
+          font-family: monospace;
+          font-size: 0.85em;
+          color: #777;
+          margin-top: 1.5em;">
+</p>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    document.getElementById("digital-clock").innerHTML =
+      "Local time: " + now.toLocaleString();
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
+
+<!-- ================= FOOTER STYLES ================= -->
 <style>
 .site-stats {
   margin-top: 2.5em;
@@ -755,22 +773,3 @@ This paper proposes a UAV-assisted hybrid routing framework for urban vehicular 
   max-width: 100% !important;
 }
 </style>
-
-<hr>
-
-<p id="digital-clock"
-   style="text-align:center;
-          font-family: monospace;
-          font-size: 0.85em;
-          color: #777;">
-</p>
-
-<script>
-  function updateClock() {
-    const now = new Date();
-    document.getElementById("digital-clock").innerHTML =
-      "Local time: " + now.toLocaleString();
-  }
-  updateClock();
-  setInterval(updateClock, 1000);
-</script>
