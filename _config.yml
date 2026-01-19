@@ -3,23 +3,25 @@ theme: jekyll-theme-cayman
 title: Welcome to Sayed Jobaer's Homepage!
 description: >
   Ph.D. in Information and Communication Intelligent Systems<br>
-  Donghua University (211, Double First-Class), Shanghai, China<br><br>
+  Donghua University, Shanghai, China<br><br>
 
   <a href="mailto:sayedjobaer@hotmail.com" title="Email">
-    <img src="/assets/email.svg" width="22" style="vertical-align:middle;">
+    <img src="assets/email.svg" width="22" style="vertical-align:middle;">
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Sayed-Jobaer" target="_blank" title="GitHub">
-    <img src="/assets/github.svg" width="22" style="vertical-align:middle;">
+    <img src="assets/github.svg" width="22" style="vertical-align:middle;">
   </a>
   &nbsp;&nbsp;
-  <a href="/assets/cv.pdf" target="_blank" title="CV">
-    <img src="/assets/pdf.svg" width="22" style="vertical-align:middle;">
+  <a href="assets/cv.pdf" target="_blank" title="CV">
+    <img src="assets/pdf.svg" width="22" style="vertical-align:middle;">
   </a>
   &nbsp;&nbsp;
-  <a href="https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en" target="_blank" title="Google Scholar">
-    🎓
+  <a href="https://scholar.google.com/citations?user=fCM8lL8AAAAJ&hl=en"
+     target="_blank" title="Google Scholar">
+    <img src="assets/google_scholar.svg" width="22" style="vertical-align:middle;">
   </a>
+
 
 
 
